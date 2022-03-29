@@ -155,7 +155,7 @@ html{
 #slider{
     position: relative;
     padding-top: 50%;
-    background: url('/assets/img/logoPGC.jpg') top center /cover no-repeat ;
+    background: url('https://leebask.github.io/PGCBand-demo/assets/img/logoPGC.jpg') top center /cover no-repeat ;
     margin-top: 46px;
 }
 
