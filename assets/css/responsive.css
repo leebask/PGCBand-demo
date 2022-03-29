@@ -1,0 +1,126 @@
+/*PC*/
+@media (min-width: 64em){
+
+}
+/*tablet and mobile */
+@media (max-width: 63.9375em){
+
+}
+/*Tablet*/
+@media (min-width: 46.25em) and (max-width:63.9375em) {
+    .fix-tablet-contact{
+        margin-right: 10%;
+    }
+    .button-contact {
+        padding: 11px;
+    }
+    .input-contact {
+        padding: 13px;
+    }
+    #footer .copyright a{
+           display: inline-block;
+           padding: 12px 0;
+    }
+}
+/*Mobile*/
+@media (max-width: 46.1875em){
+    .mt16-mobile{
+        margin-top: 16px;
+        
+    }
+    .col-full-mobile{
+        width: 100%;
+    }
+    .places-list {
+        margin-top: 16px;
+    }
+    #nav{
+        display: block;
+    }
+    #nav li > a{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+        padding-left: 5%;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 4px 41px;
+    }
+    #nav .subnav a{
+        padding: 1px 24px;
+    }
+    #home-inlineblock{
+        display: inline-block !important;
+    }
+    #header .mobile-menu{
+        
+        display: block;
+        padding: 0 24px ;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    
+    .text-description-nonemobile{
+        display: none;
+    }
+    #slider{
+        margin-right: -3%;
+   }
+    #slider .text-description {
+        font-size: 13px;
+    }
+    .member-fix-mb{
+        margin-top: 32px;
+    }
+   #content .member-img{
+       width: 60%;
+       height: 60%;
+   }
+   #content .about-text{
+    margin-right: -32px;
+   }
+  
+   .ticket-list {
+    margin-right: -9%;
+}
+.places-list {
+    margin-right: -11%;
+    margin-top: 16px;
+}
+.text-input-contact {
+    margin-left: 12px;
+    margin-top: 36px;
+}
+.tour-section {
+    width: 103%;
+}
+.button-contact {
+    width: 100%;
+    margin-right: -4px;
+    padding: 13px;
+    font-size: 15px;
+}
+.input-contact {
+    padding: 16px;
+    font-size: 17px;
+}
+.text-contact-line {
+    font-size: 17px;
+}
+.map-section img {
+    width: 103%;
+}
+.place-buy-btn {
+    font-size: 15px;
+}
+}
