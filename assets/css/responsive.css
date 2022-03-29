@@ -123,4 +123,9 @@
 .place-buy-btn {
     font-size: 15px;
 }
+.button-contact{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 }
