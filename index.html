@@ -13,6 +13,12 @@
     
 </head>
 
+ <style>
+    .Classlist_colorWhite{
+        color: #ccc !important;
+    }
+</style>
+    
 <body>
     <div id="main">
         <div id="header">
@@ -62,7 +68,7 @@
         <div id="content">
             <!-- about section -->
               <div id="band" class="content-section">
-                  <h2 class="section-heading">PGC BAND</h2>
+                  <h2 class="section-heading TestChangeColor">PGC BAND</h2>
                   <p class="section-sub-heading">We love music</p>
                   <p class="about-text">Club name's PTIT Guitar Club(PGC). Music is one of the most incredible things in life. Guitar will always be ours favorite instrument to play though. In the future we want to improve my guitar playing skills and maybe use them in some small liveshows.
                        We would certainly recommend learning guitar. If interest in it comes, it cannot be put away.
@@ -309,6 +315,12 @@
                 
             }
         }
+    </script>
+    <script> //nhấp nháy
+               var ChangeColor = document.querySelector('.TestChangeColor')
+               setInterval(()=> {
+                    ChangeColor.classList.toggle('Classlist_colorWhite');
+                       },1000);
     </script>
 </body>
 
